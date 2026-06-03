@@ -19,4 +19,9 @@ Each member adds their own entry following the format below.
 **Fun fact:** I once built a working calculator using only CSS.
 
 <!-- Add your entry below this line -->
+## Nicholas Rian Dela Cruz Pastiu
+**Role:** Intern — [Frontend / Backend / Design]
+**Fun fact:** I am very good at video games!
+
+
 
