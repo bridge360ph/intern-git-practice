@@ -38,3 +38,7 @@ Each member adds their own entry following the format below.
 ## Andrei Russell G. Insigne
 **Role:** Intern - Backend
 **Fun fact:** I enjoy playing the guitar, gaming, and going to the gym.
+
+## Jase Miguel Asuncion
+**Role:** Intern — Frontend
+**Fun fact:** I enjoy playing basketball.
