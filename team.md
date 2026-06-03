@@ -19,18 +19,14 @@ Each member adds their own entry following the format below.
 **Fun fact:** I once built a working calculator using only CSS.
 
 <!-- Add your entry below this line -->
-<<<<<<< HEAD
-## Aldrich Yang Orsolino
-**Role:** [Frontend / Backend / Design]
-**Fun fact:** I enjoy playing Marvel Rivals and watching thriller movies.
-=======
 ## Nicholas Rian Dela Cruz Pastiu
 **Role:** Intern — [Frontend / Backend / Design]
 **Fun fact:** I am very good at video games!
 
-
-
 ## Ysa Andre A. Mendoza
 **Role:** Intern — Frontend / Backend
 **Fun fact:** I am a student from Mapua University.
->>>>>>> 180a81bcc48d5973dc20fe9cf997bcb774f93391
+
+## Aldrich Yang Orsolino
+**Role:** Frontend - Backend
+**Fun fact:** I enjoy playing Marvel Rivals and watching thriller movies.
