@@ -28,5 +28,5 @@ Each member adds their own entry following the format below.
 **Fun fact:** I am a student from Mapua University.
 
 ## Aldrich Yang Orsolino
-**Role:** [Frontend / Backend / Design]
-**Fun fact:** I enjoy playing Marvel Rivals and watching thriller movies.
+**Role:** Intern — Frontend / Backend  
+**Fun fact:** I enjoy playing Marvel Rivals and watching thriller movies.git add team.md
