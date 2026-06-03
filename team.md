@@ -19,4 +19,6 @@ Each member adds their own entry following the format below.
 **Fun fact:** I once built a working calculator using only CSS.
 
 <!-- Add your entry below this line -->
-
+## Aldrich Yang Orsolino
+**Role:** [Frontend / Backend / Design]
+**Fun fact:** I enjoy playing Marvel Rivals and watching thriller movies.
