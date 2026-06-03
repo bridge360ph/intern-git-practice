@@ -20,3 +20,6 @@ Each member adds their own entry following the format below.
 
 <!-- Add your entry below this line -->
 
+## Ysa Andre A. Mendoza
+**Role:** Intern — Frontend / Backend
+**Fun fact:** I am a student from Mapua University.
