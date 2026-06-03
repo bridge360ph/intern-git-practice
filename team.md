@@ -25,3 +25,6 @@ Each member adds their own entry following the format below.
 
 
 
+## Ysa Andre A. Mendoza
+**Role:** Intern — Frontend / Backend
+**Fun fact:** I am a student from Mapua University.
