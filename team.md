@@ -34,3 +34,7 @@ Each member adds their own entry following the format below.
 ## John Alfred Aquino
 **Role:** Intern — Frontend
 **Fun fact:** I once caught a fish but it jumped again in the river.
+
+## Andrei Russell G. Insigne
+**Role:** Intern - Backend
+**Fun fact:** I enjoy playing the guitar, gaming, and going to the gym.
