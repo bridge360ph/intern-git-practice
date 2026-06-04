@@ -30,3 +30,7 @@ Each member adds their own entry following the format below.
 ## Aldrich Yang Orsolino
 **Role:** Intern — Frontend / Backend  
 **Fun fact:** I enjoy playing Marvel Rivals and watching thriller movies.git add team.md
+
+## John Alfred Aquino
+**Role:** Intern — Frontend
+**Fun fact:** I once caught a fish but it jumped again in the river.
