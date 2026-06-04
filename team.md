@@ -19,10 +19,6 @@ Each member adds their own entry following the format below.
 **Fun fact:** I once built a working calculator using only CSS.
 
 <!-- Add your entry below this line -->
-## Kennery John O. Cantal
-**Role:** Intern — Backend
-**Fun fact:** I want to be like Hideo Kojima
-
 ## Nicholas Rian Dela Cruz Pastiu
 **Role:** Intern — [Frontend / Backend / Design]
 **Fun fact:** I am very good at video games!
@@ -46,3 +42,7 @@ Each member adds their own entry following the format below.
 ## Jase Miguel Asuncion
 **Role:** Intern — Frontend
 **Fun fact:** I enjoy playing basketball.
+
+## Kennery John O. Cantal
+**Role:** Intern — Backend
+**Fun fact:** I want to be like Hideo Kojima
