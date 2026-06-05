@@ -4,298 +4,61 @@
 
 <head>
 
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Contact Us</title>
-
-<style>
-
-*{
-
-margin:0;
-
-padding:0;
-
-box-sizing:border-box;
-
-}
-
-body{
-
-font-family:Arial,sans-serif;
-
-background:#f4f6fb;
-
-}
-
-/* NAVBAR */
-
-nav{
-
-background:
-
-linear-gradient(
-
-90deg,
-
-#0f172a,
-
-#111827,
-
-#0f172a
-
-);
-
-padding:20px 70px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-}
-
-.logo{
-
-font-size:34px;
-
-font-weight:bold;
-
-color:white;
-
-}
-
-.logo span{
-
-color:#2563eb;
-
-}
-
-nav ul{
-
-display:flex;
-
-list-style:none;
-
-gap:40px;
-
-}
-
-nav a{
-
-text-decoration:none;
-
-color:white;
-
-font-size:18px;
-
-}
-
-.active{
-
-color:#3b82f6;
-
-border-bottom:
-
-3px solid #3b82f6;
-
-padding-bottom:8px;
-
-}
-
-/* HERO */
-
-.hero{
-
-display:flex;
-
-flex-direction:column;
-
-justify-content:center;
-
-align-items:center;
-
-padding-top:80px;
-
-}
-
-.hero h1{
-
-font-size:72px;
-
-margin-bottom:20px;
-
-color:#111827;
-
-}
-
-.line{
-
-width:80px;
-
-height:5px;
-
-background:#2563eb;
-
-border-radius:10px;
-
-margin-bottom:30px;
-
-}
-
-.subtitle{
-
-font-size:24px;
-
-color:#6b7280;
-
-margin-bottom:50px;
-
-}
-
-/* FORM */
-
-.card{
-
-background:white;
-
-width:700px;
-
-padding:40px;
-
-border-radius:18px;
-
-box-shadow:
-
-0 5px 20px rgba(0,0,0,.08);
-
-}
-
-input,
-
-textarea{
-
-width:100%;
-
-padding:18px;
-
-border:
-
-1px solid #d1d5db;
-
-border-radius:10px;
-
-font-size:18px;
-
-margin-bottom:25px;
-
-}
-
-textarea{
-
-height:220px;
-
-resize:none;
-
-}
-
-button{
-
-width:100%;
-
-padding:20px;
-
-border:none;
-
-border-radius:10px;
-
-background:#2563eb;
-
-color:white;
-
-font-size:24px;
-
-cursor:pointer;
-
-}
-
-button:hover{
-
-opacity:.92;
-
-}
-
-/* FOOTER */
-
-footer{
-
-margin-top:70px;
-
-padding:40px;
-
-text-align:center;
-
-font-size:30px;
-
-color:#4b5563;
-
-}
-
-footer span{
-
-color:#2563eb;
-
-font-weight:bold;
-
-}
-
-</style>
+<title>Contact Page</title>
 
 </head>
 
 <body>
 
+<div style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+
 <nav>
 
-<div class="logo">
+<a href="ysa-about-page.html">About</a> |
 
-Contact <span>Us</span>
+<a href="aldrich-contact-page.html">Contact</a> |
 
-</div>
-
-<ul>
-
-<li><a href="#">Home</a></li>
-
-<li><a href="#">About Us</a></li>
-
-<li><a class="active" href="#">Contact</a></li>
-
-</ul>
+<a href="nick-pricing-page.html">Pricing</a>
 
 </nav>
 
+<h1>Contact Page</h1>
 
-<section class="hero">
+<p>
 
-<h1>
-
-Contact Us
-
-</h1>
-
-<div class="line"></div>
-
-<p class="subtitle">
-
-Have any questions or want to work together? Send us a message.
+Welcome to BridgeTech Solutions.
 
 </p>
 
-<div class="card">
+<p>
+
+This is the Contact page created as part of our Git practice activity.
+
+</p>
+
+<hr style="width:50%;" />
+
+<h3>Team Member</h3>
+
+<p>
+
+Aldrich Yang
+
+</p>
+
+<h3>Get In Touch</h3>
+
+<p>
+
+Questions, suggestions, or feedback?
+
+Feel free to send us a message below.
+
+</p>
 
 <input
 
@@ -305,11 +68,19 @@ placeholder="Your Name"
 
 >
 
+<br><br>
+
 <textarea
 
-placeholder="Your Message"
+placeholder="Write your message"
+
+rows="6"
+
+cols="40"
 
 ></textarea>
+
+<br><br>
 
 <button>
 
@@ -318,21 +89,6 @@ Send Message
 </button>
 
 </div>
-
-</section>
-
-
-<footer>
-
-Team Member :
-
-<span>
-
-Aldrich Yang
-
-</span>
-
-</footer>
 
 </body>
 
