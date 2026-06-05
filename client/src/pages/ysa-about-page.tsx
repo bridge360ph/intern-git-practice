@@ -1,54 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Page</title>
-</head>
-<body>
-    <div style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+import React from "react";
 
-        <nav>
-            <a href="ysa-about-page.html">About</a> |
-            <a href="aldrich-contact-page.html">Contact</a> |
-            <a href="nick-pricing-page.html">Pricing</a>
-        </nav>
+const AboutPage: React.FC = () => {
+  return (
+    <div style={styles.page}>
+      <section style={styles.hero}>
+        <p style={styles.badge}>BridgeTech Solutions</p>
 
-        <h1>About Page</h1>
+        <h1 style={styles.title}>About Us</h1>
 
-        <p>Welcome to BridgeTech Solutions.</p>
-
-        <p>
-            This is the About page created as part of our Git practice activity.
+        <p style={styles.subtitle}>
+          Learn more about our mission, services, and commitment to helping
+          businesses succeed through technology.
         </p>
+      </section>
 
-        <hr style="width: 50%;" />
+      <section style={styles.card}>
+        <h2 style={styles.sectionTitle}>Who We Are</h2>
 
-        <h3>Team Member</h3>
-        <p>Ysa Andre A. Mendoza</p>
-
-        <h3>Who We Are</h3>
-
-        <p>
-            BridgeTech Solutions is a technology startup focused on
-            creating software solutions for businesses and organizations.
+        <p style={styles.text}>
+          BridgeTech Solutions is a technology startup focused on creating
+          software solutions for businesses and organizations.
         </p>
+      </section>
 
-        <h3>Our Mission</h3>
+      <section style={styles.card}>
+        <h2 style={styles.sectionTitle}>Our Mission</h2>
 
-        <p>
-            Our mission is to help clients improve efficiency and
-            productivity through reliable and innovative technology.
+        <p style={styles.text}>
+          Our mission is to help clients improve efficiency and productivity
+          through reliable and innovative technology.
         </p>
+      </section>
 
-        <h3>Services We Offer</h3>
+      <section style={styles.card}>
+        <h2 style={styles.sectionTitle}>Services We Offer</h2>
 
-        <p>
-            Web Development<br />
-            Software Solutions<br />
-            Cloud Services
-        </p>
+        <ul style={styles.list}>
+          <li>Web Development</li>
+          <li>Software Solutions</li>
+          <li>Cloud Services</li>
+        </ul>
+      </section>
 
+      <section style={styles.footerBox}>
+        <h3 style={styles.footerTitle}>Team Member</h3>
+        <p style={styles.footerText}>Ysa Andre A. Mendoza</p>
+      </section>
     </div>
-</body>
-</html>
+  );
+};
+
+const styles: {
+  page: React.CSSProperties;
+  hero: React.CSSProperties;
+  badge: React.CSSProperties;
+  title: React.CSSProperties;
+  subtitle: React.CSSProperties;
+  card: React.CSSProperties;
+  sectionTitle: React.CSSProperties;
+  text: React.CSSProperties;
+  list: React.CSSProperties;
+  footerBox: React.CSSProperties;
+  footerTitle: React.CSSProperties;
+  footerText: React.CSSProperties;
+} = {
+  page: {
+    minHeight: "100vh",
+    fontFamily: "Arial, sans-serif",
+    background: "linear-gradient(135deg, #fff5f8, #f3f0ff)",
+    padding: "30px",
+    color: "#3d2c3e",
+  },
+  hero: {
+    textAlign: "center",
+    maxWidth: "750px",
+    margin: "0 auto 40px",
+  },
+  badge: {
+    display: "inline-block",
+    backgroundColor: "#ffe0ec",
+    color: "#a33f6b",
+    padding: "8px 18px",
+    borderRadius: "20px",
+    fontWeight: "bold",
+    marginBottom: "12px",
+  },
+  title: {
+    fontSize: "42px",
+    margin: "10px 0",
+    color: "#4a305d",
+  },
+  subtitle: {
+    fontSize: "18px",
+    lineHeight: "1.6",
+    color: "#6c5a70",
+  },
+  card: {
+    backgroundColor: "#ffffff",
+    maxWidth: "800px",
+    margin: "0 auto 25px",
+    padding: "28px",
+    borderRadius: "25px",
+    boxShadow: "0 10px 25px rgba(80, 50, 100, 0.12)",
+    border: "2px solid #f4dff0",
+  },
+  sectionTitle: {
+    color: "#5b3b72",
+    marginBottom: "12px",
+  },
+  text: {
+    color: "#6d5c70",
+    lineHeight: "1.7",
+  },
+  list: {
+    color: "#4e4053",
+    lineHeight: "2",
+    paddingLeft: "20px",
+  },
+  footerBox: {
+    textAlign: "center",
+    marginTop: "40px",
+    backgroundColor: "#ffffff",
+    maxWidth: "400px",
+    marginLeft: "auto",
+    marginRight: "auto",
+    padding: "20px",
+    borderRadius: "22px",
+    boxShadow: "0 8px 20px rgba(80, 50, 100, 0.1)",
+  },
+  footerTitle: {
+    margin: "0 0 8px",
+    color: "#5b3b72",
+  },
+  footerText: {
+    margin: 0,
+    color: "#6d5c70",
+  },
+};
+
+export default AboutPage;
