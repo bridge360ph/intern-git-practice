@@ -3,6 +3,19 @@ import React from "react";
 const AboutPage: React.FC = () => {
   return (
     <div style={styles.page}>
+
+      <nav style={styles.navbar}>
+        <a style={styles.navLink} href="/about">
+          About
+        </a>
+        {/* <a style={styles.navLink} href="/contact">
+          Contact
+        </a>  */}
+        <a style={styles.navLink} href="/pricing">
+          Pricing
+        </a>
+      </nav>
+
       <section style={styles.hero}>
         <p style={styles.badge}>BridgeTech Solutions</p>
 
@@ -52,6 +65,8 @@ const AboutPage: React.FC = () => {
 
 const styles: {
   page: React.CSSProperties;
+  navbar: React.CSSProperties;
+  navLink: React.CSSProperties;
   hero: React.CSSProperties;
   badge: React.CSSProperties;
   title: React.CSSProperties;
@@ -70,6 +85,21 @@ const styles: {
     background: "linear-gradient(135deg, #fff5f8, #f3f0ff)",
     padding: "30px",
     color: "#3d2c3e",
+  },
+  navbar: {
+    display: "flex",
+    justifyContent: "center",
+    gap: "25px",
+    marginBottom: "45px",
+  },
+  navLink: {
+    textDecoration: "none",
+    color: "#7b4f8f",
+    fontWeight: "bold",
+    backgroundColor: "#ffffff",
+    padding: "10px 18px",
+    borderRadius: "20px",
+    boxShadow: "0 4px 12px rgba(123, 79, 143, 0.15)",
   },
   hero: {
     textAlign: "center",
