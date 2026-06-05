@@ -8,9 +8,9 @@ const AboutPage: React.FC = () => {
         <a style={styles.navLink} href="/about">
           About
         </a>
-        {/* <a style={styles.navLink} href="/contact">
+        {<a style={styles.navLink} href="/contact">
           Contact
-        </a>  */}
+        </a>}
         <a style={styles.navLink} href="/pricing">
           Pricing
         </a>
