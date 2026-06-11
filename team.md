@@ -46,3 +46,7 @@ Each member adds their own entry following the format below.
 ## Kennery John O. Cantal
 **Role:** Intern — Backend
 **Fun fact:** I want to be like Hideo Kojima
+
+## Layla R. Sargento
+**Role:** Intern — Frontend / Backend 
+**Fun fact:** I really like to go thrift shopping.
