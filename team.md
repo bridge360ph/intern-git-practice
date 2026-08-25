@@ -54,3 +54,7 @@ Each member adds their own entry following the format below.
 ## Brian Matthew Clemente
 **Role:** Intern — Full Stack
 **Fun fact:** I design and model custom 3D racing tracks in Blender for Assetto Corsa.
+
+## Leona Raine Aquino
+**Role:** Intern — Full Stack  
+**Fun fact:** I save all of my money for a full year then spend it all one day.
