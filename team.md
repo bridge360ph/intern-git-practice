@@ -47,6 +47,10 @@ Each member adds their own entry following the format below.
 **Role:** Intern — Backend
 **Fun fact:** I want to be like Hideo Kojima
 
+## Layla R. Sargento
+**Role:** Intern - Frontend / Backend
+**Fun fact:** I really like to go thrift shopping.
+
 ## Brian Matthew Clemente
 **Role:** Intern — Full Stack
 **Fun fact:** I design and model custom 3D racing tracks in Blender for Assetto Corsa.
