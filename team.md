@@ -58,3 +58,7 @@ Each member adds their own entry following the format below.
 ## Leona Raine Aquino
 **Role:** Intern — Full Stack  
 **Fun fact:** I save all of my money for a full year then spend it all one day.
+
+## Santthea Maund Marasigan
+**Role:** Intern — Full Stack
+**Fun fact:** I said yes to F1 trip on a whim and somehow ended up meeting the drivers.
